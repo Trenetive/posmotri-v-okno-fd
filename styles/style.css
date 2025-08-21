@@ -69,13 +69,16 @@ ol {
   flex-basis: 399px;
   display: flex;
   flex-direction: column;
+  align-self: auto;
   justify-content: flex-end;
+  margin-bottom: 133px;
 }
 
 .result {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 711px;
+  margin-bottom: 133px;
 }
 
 .result__video-container {
@@ -111,7 +114,8 @@ ol {
 
 .content__list-container {
   position: relative;
-  height: 386px;
+  width: 399px;
+  height: 298px;
   overflow: auto;
   width: 100%;
   display: block;
@@ -380,4 +384,9 @@ ol {
 .result__video-container,
 .content__list-container {
   position: relative;
+}
+
+.content__list-container .more-button {
+  margin-top: 30px;
+  flex: 0 0 auto;
 }
