@@ -71,14 +71,12 @@ ol {
   flex-direction: column;
   align-self: auto;
   justify-content: flex-end;
-  margin-bottom: 133px;
 }
 
 .result {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 711px;
-  margin-bottom: 133px;
 }
 
 .result__video-container {
